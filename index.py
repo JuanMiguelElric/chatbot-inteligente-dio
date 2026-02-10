@@ -13,10 +13,14 @@ def main():
             print("Digite o nome do amigo dessa pessoa:")
             pessoa2 = input()
 
-            add_friend(driver, pessoa1, pessoa2)
+            print("Digite o nome da mãe dessa pessoa:")
+            pessoa3 = input()
+
+            add_friend(driver, pessoa1, pessoa2, pessoa3)
             print("Amizade cadastrada com sucesso!\n")
 
             x = input("Digite 'sair' para encerrar ou ENTER para continuar: ")
+
 
 
 if __name__ == "__main__":
